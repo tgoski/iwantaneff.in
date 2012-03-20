@@ -1,0 +1,1 @@
+function ASCII_because_my_css_wants_to_remain_unharmed_by_UNICODE(){var symbol=$(".ggg").attr("value");prompt("Here you go - paste this into your 'content:' property","\\"+symbol.charCodeAt(0).toString(16))};

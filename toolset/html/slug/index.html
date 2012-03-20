@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Arvo:regular,italic,bold" rel=stylesheet type=text/css>
+<link href="../../lib/this.to.that.css" rel=stylesheet type=text/css>
+<link href="../../lib/global.css" rel=stylesheet type=text/css>
+<script src="../../lib/zepto.js"></script>
+<script src="../../lib/slug.js"></script>
+
+<title>iwantaneff.in/slug</title>
+
+</head>
+
+	<body>
+
+<header>
+	<h2>iwantaneff.in/slug</h2>
+</header>
+
+<p>You have a string like this:<br><i>
+This is my wondérful élongated blog post tïtle
+</i>
+<br>
+
+You want to see a URI/URL friendly version of it that agrees with search engines + browsers. This tool will do that.
+
+</p>
+
+<h4>Notes</h4>
+
+<ul>
+<li>Man I hate when a link breaks because people don't slug their links!</li>
+<li>Search engines love slugged URLs. Fact.</li>
+</ul>
+
+<h4>Dump your formatted ugliness here:</h4>
+
+<form name="BMMaker" onsubmit="show_me_theASCII_motherfucker() ; return false;" action="#">
+
+<div style="background: #ccc; padding: 0.5em;">
+<textarea spellcheck="false" class="dump" style="width: 100%; height: 20em;"></textarea>
+</div>
+
+<div style="float: left; background: #ccc; padding: 0.25em 1em;">Look ma, I love exotic charsets? &#8593;</div>
+<div style="float: right; background: #cfc; padding: 0.25em 1em;">Show me the lovely slug:</div>
+
+<div style="text-align: center;"><input type="submit" value="SLUGGIFY ME, NOW, DAMMIT»"></div>
+
+<div style="clear: left; background: #cfc; padding: 0.5em;">
+<textarea spellcheck="false" class="asciistuff" wrap="hard" style="width: 100%; height: 20em;"></textarea>
+</div>
+
+</form>
+
+<script src="http://eire-media.com/toolset/?js"></script>
+<script>function _(e, x, y) {e.style.backgroundPosition = x + "px -" + y + "px"};function do_the_twitter_dance(){window.open('http://twitter.com/intent/tweet?text=Look+at+this%3A&via=daveyhiggins&url='+location.href,'twitter-window','height=300,width=450')}</script>
+<style>.tweet_container{width:55px;height:25px;position:fixed;right:6px;top:0;cursor:pointer;padding-top:5px}.tweet_button{width:55px;height:20px;cursor:pointer;background:url(http://iwantaneff.in/tweet.ping) red no-repeat}</style>
+<div class="tweet_container">
+<div class="tweet_button" onmouseover="_(this,0,21)" onmouseout="_(this,0,0)" onmousedown="_(this,0,42)" onclick="do_the_twitter_dance();"></div>
+</div>
+</body>
+
+</html>

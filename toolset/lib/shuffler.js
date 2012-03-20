@@ -1,0 +1,1 @@
+function fisherYates(myArray){i=myArray.length;if(i==0){return false}while(--i){j=Math.floor(Math.random()*(i+1));tempi=myArray[i];tempj=myArray[j];myArray[i]=tempj;myArray[j]=tempi}}function shuffle(){lines=document.form.textarea.value.split("\n");fisherYates(lines);document.form.textarea.value=lines.join("\n")};

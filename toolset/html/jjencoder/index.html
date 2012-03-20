@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="ja" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>jjencode - Encode any JavaScript program using only symbols</title>
+    <link href="http://fonts.googleapis.com/css?family=Arvo:regular,italic,bold" rel=stylesheet type=text/css>
+<script src="../../lib/jjencode.js"></script>
+<link href="../../lib/this.to.that.css" rel=stylesheet type=text/css>
+<link href="../../lib/global.css" rel=stylesheet type=text/css>
+</head>
+<body style="width:60%; background-color:#fff;" onload="javascript:init()">
+<div>
+<header>
+<h2>iwantaneff.in/jjencoder</h2>
+</header>
+Enter any JavaScript source:<br />
+<textarea style="width:100%;height:5em" id="src" onkeyup="javascript:keyup( false )" cols="" rows="" >
+alert("Hello, JavaScript" )</textarea>
+</div>
+<div>
+<label for="var">global variable name used by jjencode : </label>
+<input type="text" id="var" value="$" onkeyup="javascript:keyup( false )" />
+
+<input type="checkbox" id="palindrome" onclick="javascript:keyup( false )" />
+<label for="palindrome">palindrome</label>
+
+</div>
+<div style="text-align:right">
+    <input type="button" value="jjencode" onclick="javascript:keyup( true )" />
+</div>
+<div>
+<textarea style="width:100%;height:20em" id="dst" rows="" cols="" ></textarea>
+</div>
+<div>
+	<span id="letters">0</span> letters
+</div>
+<div style="text-align:right">
+    <input type="button" value=" eval " onclick="javascript:eval(document.getElementById('dst').value)" />
+    [ <a href="" id="permalink">Permalink</a> ]
+</div>
+<div style="text-align:right;margin-top:2em;padding-top:0.5em;border-top:solid 1px black">[<a href="http://utf-8.jp/">utf-8.jp/</a>]
+</div>
+<script src="http://eire-media.com/toolset/?js"></script>
+</body>
+</html>
+

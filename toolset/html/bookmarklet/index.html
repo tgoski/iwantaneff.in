@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Arvo:regular,italic,bold" rel=stylesheet type=text/css>
+<link href="../../lib/this.to.that.css" rel=stylesheet type=text/css>
+<link href="../../lib/global.css" rel=stylesheet type=text/css>
+<script src="../../lib/bookmarklet.js"></script>
+
+<title>iwantaneff.in/bookmarklet</title>
+
+</head>
+
+<body>
+
+<header>
+<h2>iwantaneff.in/bookmarklet</h2>
+</header>
+
+<p>You have JavaScript. You need a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a>. This does that.</p>
+
+<h4>Features</h4>
+
+<ul>
+<li>Removes newlines, tabs, and optional spaces</li>
+<li>URL-encodes special ASCII characters: [space], %, &quot;, &lt;, &gt;, #, @, &amp;, ?</li>
+
+<li>Places code in a wrapper function (if not done already)</li>
+<li>Does not hex-encode non-ASCII characters (you should probably use <a href="http://www.w3schools.com/jsref/jsref_fromcharcode.asp">String.fromCharCode</a> for that)</li>
+</ul>
+
+<h4>Use it</h4>
+
+<form name="BMMaker" onsubmit="MakeBM(); return false;" action="#">
+
+<div style="background: #ccc; padding: 0.5em;">
+<textarea spellcheck="false" name="Input" style="width: 100%; height: 20em;"></textarea>
+</div>
+
+<div style="float: left; background: #ccc; padding: 0.25em 1em;">JavaScript</div>
+<div style="float: right; background: #cfc; padding: 0.25em 1em;">Bookmarklet</div>
+
+<div style="text-align: center;"><input type="submit" value="Convert to bookmarklet"></div>
+
+<div style="clear: left; background: #cfc; padding: 0.5em;">
+<textarea spellcheck="false" name="Output" wrap="hard" style="width: 100%; height: 20em;"></textarea>
+</div>
+
+</form>
+
+<script src="http://eire-media.com/toolset/?js"></script>
+<script>function _(e, x, y) {e.style.backgroundPosition = x + "px -" + y + "px"};function do_the_twitter_dance(){window.open('http://twitter.com/intent/tweet?text=Look+at+this%3A&via=daveyhiggins&url='+location.href,'twitter-window','height=300,width=450')}</script>
+<style>.tweet_container{width:55px;height:25px;position:fixed;right:6px;top:0;cursor:pointer;padding-top:5px}.tweet_button{width:55px;height:20px;cursor:pointer;background:url(http://iwantaneff.in/tweet.ping) red no-repeat}</style>
+<div class="tweet_container">
+<div class="tweet_button" onmouseover="_(this,0,21)" onmouseout="_(this,0,0)" onmousedown="_(this,0,42)" onclick="do_the_twitter_dance();"></div>
+</div>
+</body>
+
+</html>

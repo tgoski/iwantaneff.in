@@ -1,0 +1,50 @@
+
+.light {
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(100%, #cecece));
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #cecece 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #cecece 100%);
+    border-color: #b7b7b7;
+    text-shadow: #fff 0px 1px 1px;
+    -moz-box-shadow: rgba(255,255,255,0.867) 0 0 0.1em 1px inset;
+    -webkit-box-shadow: rgba(255,255,255,0.867) 0 0 0.1em 1px inset;
+    -o-box-shadow: rgba(255,255,255,0.867) 0 0 0.1em 1px inset;
+    box-shadow: rgba(255,255,255,0.867) 0 0 0.1em 1px inset;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    -o-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    -khtml-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 8px;
+    display:block;
+}
+.light,
+.light:visited { color: #222 }
+.light:hover,
+.light:focus {
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #fcfcfc), color-stop(100%, #c6c6c6));
+    background-image: -moz-linear-gradient(top, #fcfcfc 0%, #c6c6c6 100%);
+    background-image: linear-gradient(top, #fcfcfc 0%, #c6c6c6 100%);
+    border-color: #afafaf;
+    text-shadow: #fff 0px 1px 1px;
+}
+.light:hover,
+.light:hover:visited,
+.light:focus,
+.light:focus:visited { color: #222 }
+.light:active {
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #cbcbcb), color-stop(40%, #d3d3d3), color-stop(85%, #d3d3d3), color-stop(100%, #e5e5e5));
+    background-image: -moz-linear-gradient(top, #cbcbcb 0%, #d3d3d3 40%, #d3d3d3 85%, #e5e5e5 100%);
+    background-image: linear-gradient(top, #cbcbcb 0%, #d3d3d3 40%, #d3d3d3 85%, #e5e5e5 100%);
+    border-color: #a7a7a7;
+    text-shadow: #fff 0px -1px -1px;
+    -moz-box-shadow: #b7b7b7 0 0.08em 0.1em 1px inset;
+    -webkit-box-shadow: #b7b7b7 0 0.08em 0.1em 1px inset;
+    -o-box-shadow: #b7b7b7 0 0.08em 0.1em 1px inset;
+    box-shadow: #b7b7b7 0 0.08em 0.1em 1px inset;
+}
+.light:active,
+.light:active:visited { color: #222 }

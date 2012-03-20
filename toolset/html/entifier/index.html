@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Arvo:regular,italic,bold" rel=stylesheet type=text/css>
+<link href="../../lib/this.to.that.css" rel=stylesheet type=text/css>
+<link href="../../lib/global.css" rel=stylesheet type=text/css>
+<script src="../../lib/entifier.js"></script>
+
+<title>iwantaneff.in/bookmarklet</title>
+</head>
+
+
+	</head>
+	<body>
+
+<header>
+<h2>iwantaneff.in/entifier</h2>
+</header>
+
+<p>You have HTML code you want to place in a &lt;PRE&gt; tag element. You want it entified, so it plays nice with your &lt;PRE&gt; tag. This does that.</p>
+
+<h4>Use it</h4>
+
+					<h2 style="margin:0px;padding:0px;">Enter/paste text to HTML Escape:</h2>
+					<textarea onkeyup="escapex();" id="from_text" name="from_text" style="width:750px;height:200px;overflow:auto;border:1px solid #00acf2;"></textarea>
+  					<input onclick="escapex();" type="checkbox" id="br" checked="checked" />Replace newline with &lt;br/&gt;<br/>
+ 	 				<input onclick="escapex();" type="checkbox" id="tag" checked="checked" />Replace &lt; &gt; &quot;<br/>
+  					<input onclick="escapex();" type="checkbox" id="nbsp" />Replace space with &amp;nbsp;<br/>
+ 	 				<input onclick="escapex();" type="checkbox" id="other" checked="checked" />Escape special characters (&amp; and non latin chars)<br/>
+ 
+ 					<br/>
+					<h2 style="margin:0px;padding:0px;">HTML Escaped result:</h2>
+					<textarea id="to_text" name="to_text" style="width:750px;height:200px;overflow:auto;border:1px solid #00acf2;"></textarea>
+
+			
+					
+	</body>
+</html> 

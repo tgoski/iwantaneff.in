@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Arvo:regular,italic,bold" rel=stylesheet type=text/css>
+<link href="../../lib/this.to.that.css" rel=stylesheet type=text/css>
+<link href="../../lib/global.css" rel=stylesheet type=text/css>
+<script src="../../lib/zepto.js"></script>
+<script src="../../lib/ba-packify.js"></script>
+<script src="../../lib/pack.functions.js"></script>
+<title>iwantaneff.in/packer</title>
+
+</head>
+
+<body>
+
+<header>
+<h2>iwantaneff.in/packer</h2>
+</header>
+
+<p>You have JavaScript. You need to pack it to a <i>really</i> small size. This does that. Based on Ben Alman's (@cowboy) <a href="https://github.com/cowboy/javascript-packify">packer script.</a> Only works with single line JavaScript. Use <a href="http://dean.edwards.name/packer/">this tool</a> to get a single line of JS.</p>
+
+<p>
+Here is some sample code (for testing):<br><br>
+<code>
+<pre>
+(function(J){var A,v,F,D,q,n,G=J.body.style,f=J.getElementById(&quot;c&quot;),d=f.getContext(&quot;2d&quot;),p=32,I=360,e=Math,B=e.min,b=e.sin,c=e.cos,l=e.random,z=e.PI*2,o=z/I,t=0,a=0,C=0,k=0,h=G.margin=0,H=2,s=2,r=3,E=6,g=p,u=[],i=[],m=&quot;f001fa01ff0107010ff100f14081e8e&quot;.split(1),j=l(G.overflow=&quot;hidden&quot;)*I,w=l(onmousemove=function(x){g=0;q=x.clientX-F;n=x.clientY-D})&lt;.5?1:-1;setInterval(function(L,x,K,y,M){if(!(++t%p)){while(k==~~(y=l(M=l())*6));k=~~y;y&lt;.4?w=-w:y&lt;2?h++:y&lt;3?C=M*7:y&lt;4?H=M*8+1:y&lt;5?s=M*3+1:r=B(E=M*8+4,l()*5+5)-2}A=f.width=innerWidth;v=f.height=innerHeight;L=B(F=A/2,D=v/2);x=L/I;L-=20*x;if(++g&gt;p){if(C&lt;1){j-=H*w*4;q=b(j*o)*L;n=c(j*o)*L}else{j-=H*w*2;y=e.abs(q=b(j*o)*L);q=y*c(M=e.atan2(0,q)+j*o/C);n=y*b(M)}}for(K=0;K&lt;p;){y=u[K]=u[K]||{x:0,y:0};M=u[K-1];y.x=K?y.x+(M.x-y.x)/s:q;y.y=K++?y.y+(M.y-y.y)/s:n}for(K=0;y=u[K*4];){i[a++%I]={s:1,d:1,c:m[(h+K++)%8],x:y.x,y:y.y}}d.fillRect(K=0,0,A,v);while(y=i[K++]){M=y.s+=y.d;y.d=M&gt;E?-1:M&lt;r?1:y.d;d.beginPath(d.fillStyle=&quot;#&quot;+y.c);d.fill(d.arc(F+y.x,D+y.y,M*x,0,z,0))}},p)})(document)
+</pre>
+</code>
+</p>
+
+
+<h4>Use it</h4>
+
+<div style="background: #ccc; padding: 0.5em;">
+<textarea spellcheck="false" class="input" style="width: 100%; height: 20em;"></textarea>
+</div>
+
+<div style="float: left; background: #ccc; padding: 0.25em 1em;">Single Line JS</div>
+<div style="float: right; background: #cfc; padding: 0.25em 1em;">Output</div>
+
+<div style="text-align: center;"><input type="submit" onclick="do_the_packer_dance();" value="Pack it"></div>
+
+<div style="clear: left; background: #cfc; padding: 0.5em;">
+<textarea spellcheck="false" class="output" wrap="hard" style="width: 100%; height: 20em;"></textarea>
+</div>
+
+
+<script src="http://eire-media.com/toolset/?js"></script>
+<script>function _(e, x, y) {e.style.backgroundPosition = x + "px -" + y + "px"};function do_the_twitter_dance(){window.open('http://twitter.com/intent/tweet?text=Look+at+this%3A&via=daveyhiggins&url='+location.href,'twitter-window','height=300,width=450')}</script>
+<style>.tweet_container{width:55px;height:25px;position:fixed;right:6px;top:0;cursor:pointer;padding-top:5px}.tweet_button{width:55px;height:20px;cursor:pointer;background:url(http://iwantaneff.in/tweet.ping) red no-repeat}</style>
+<div class="tweet_container">
+<div class="tweet_button" onmouseover="_(this,0,21)" onmouseout="_(this,0,0)" onmousedown="_(this,0,42)" onclick="do_the_twitter_dance();"></div>
+</div>
+</body>
+
+</html>
