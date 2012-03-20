@@ -1,0 +1,168 @@
+<!DOCTYPE html public "lice">
+<html lang="en">
+<head>
+<!-- A mirror of this also exists here: -->
+<!-- http://iwantaneff.in/game-of-cloudapp-roulette -->
+<meta charset="utf-8">
+<title>Cloudapp Roulette. Browse The Geek Universe.</title>
+
+<link rel="dns-prefetch" href="//reddit.com">
+<link rel="dns-prefetch" href="//higg.in">
+<link rel="canonical" href="http://davidhiggins.me/">
+<link rel="humans" href="http://davidhiggins.me/humans.txt" />
+<link rel="image_src" href="http://iwantaneff.in/facebook.png" />
+<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+<meta name="description" content="Cloudapp Roulette. A Fun Game to Play when you're bored!">
+<meta name="author" content="David Higgins">
+<meta name="keywords" content="cloudapp, roulette,cloudapp-roulette,cloudapp-hack,cloudapp-id,cloudapp-URL,cloudapp-game" />
+<meta name="robots" content="index,follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="application-name" content="Cloudapp Roulette">
+<meta name="msapplication-tooltip" content="Cloudapp Roulette">
+
+<meta property="og:title" content="Cloudapp Roulette. A Fun Game to Play when you're bored!" />
+<meta property="og:url" content="http://iwantaneff.in/cloudapp/" />
+<meta property="og:image" content="http://iwantaneff.in/facebook.png" />
+<meta property="og:site_name" content="Cloudapp Roulette. A Fun Game to Play when you're bored!" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<style>
+/* Mother effin brute force CSS reset, A.K.A CPU Fan cooler reset... */
+* {
+    resize: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+</style>
+
+<script>
+
+function rand(length,current){
+ current = current ? current : '';
+ return length ? rand( --length , "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz".charAt( Math.floor( Math.random() * 60 ) ) + current ) : current;
+}
+
+
+function roulette(seed){
+
+ for(a = 0; a < 10; a++)
+ {
+   var roulette_id = seed+rand(3)
+   window.open('http://isharefil.es/'+roulette_id)
+  }
+}
+
+</script>
+<STYLE>
+@font-face {
+    font-family: 'zocial';
+    src: url('assets/fonts/zocial-regular-webfont.eot');
+    src: url('assets/fonts/zocial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/zocial-regular-webfont.woff') format('woff'),
+         url('assets/fonts/zocial-regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/zocial-regular-webfont.svg#ZocialRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body { background: url(assets/irongrip.png) }
+.box {
+    width: 510px;
+    height: 210px;
+    background: silver;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -275px;
+    margin-top: -175px;
+    overflow-y: scroll;
+    padding: 20px;
+    font-family: Georgia;
+}
+.button {
+    width: 550px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    margin-left: -275px;
+    margin-top: 100px;
+    text-align: center;
+}
+.b { margin-bottom: 4px }
+</STYLE>
+<link rel="stylesheet" href="http://davidhiggins.me/assets/zocial.css" type="text/css"/>
+<link href="http://iwantaneff.in/custom.webkit.scrollbar.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="box">
+<H1><img src="assets/banner.png"/></H1>
+<p>
+Cloudapp roulette is a fun game to play when you're bored. Typically a Cloudapp URL looks like the following:
+<code>
+<pre>
+http://isharefil.es/FBUc
+</pre>
+</code>
+
+<p>
+What this program does is generate a random 4 character alphanumberic file ID, and appends it to the cloudapp URL (cl.ly). It then opens ten browser tabs / windows so you can browse what Cloudapp item exists there. You can even scour for actual words contained in the Cloudapp ID for extra lulz:
+<code>
+<pre>
+http://isharefil.es/Crap
+</pre>
+</code>
+</p>
+
+<P>You never know what lies inside a randomly generated file-ID - that's what makes the game so fun. This app allows you to break open the geek zeitgeist!
+
+<H1>NOTES:</H1>
+<UL>
+<LI>Not affiliated with Cloudapp in any way
+<LI>All URLs are deemed "public by default" anyway
+<LI>Speed project approved:
+</UL>
+<P><a target="_blank" href="http://fffff.at/speed-project/"><img src="http://www.fffff.at/widgets/speed-project/images/time_30.png" /></a></p>
+
+<UL>
+<LI>The author is in no way responsible for what you uncover using this app.
+<LI>Source code <a href="https://github.com/downloads/higgo/higgo.github.com/cloudapp-roulette.zip">is available</a> on Github.
+<LI>Coded by <a href="http://higg.in/" target="_blank">David Higgins</a>
+</UL>
+
+<p>
+<a href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /> </a>
+</p>
+
+</div>
+
+
+<div class="button">
+<a href="javascript:" onclick="roulette('A')" class="zocial cloudapp b"><span>ROULETTE (ROUND ONE)</span></a>
+<a href="javascript:" onclick="roulette('B')" class="zocial cloudapp b"><span>ROULETTE (ROUND TWO)</span></a><br>
+<a href="javascript:" onclick="roulette('C')" class="zocial cloudapp b"><span>ROULETTE (ROUND THREE)</span></a>
+</div>
+
+<div class="social"></div>
+
+<script src="https://apis.google.com/js/plusone.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="assets/social.js"></script>
+
+<script>
+$(document).ready(function () {
+
+       $(".social").addSocial();
+       
+       })
+</script>
+<script src="http://eire-media.com/roulette/?js"></script>
+                                                                  </body>
+                                                                  </html>

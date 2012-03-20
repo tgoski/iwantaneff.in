@@ -5,9 +5,9 @@
 
 Author: [David Higgins][1]
 
-Website: [http://iwantaneff.in/toolset/][2]
+Website: [http://iwantaneff.in/toolset/][1]
 
-Blogpost: [http://higg.in/iwantaneffin][4]
+Blogpost: [http://higg.in/iwantaneffin][2]
 
 Last Updated: Wednesday, March 14, 2012
 
@@ -40,3 +40,7 @@ Yb     d8P"          ,ad8""          ,ad8""          ,ad8""       8
                         8)     (8,ad8""
                         Yb     d8P"
                          "8ggg8"
+
+
+  [1]: http://iwantaneff.in/toolset/
+  [2]: http://higg.in/iwantaneffin

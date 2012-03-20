@@ -16,23 +16,35 @@ Redirect 301 /css.sanitizer http://iwantaneff.in/toolset/html/css.sanitizer/
 Redirect 301 /datauri/ http://iwantaneff.in/toolset/html/datauri/
 Redirect 301 /datauri http://iwantaneff.in/toolset/html/datauri/
 
+Redirect 301 /entifier/ http://iwantaneff.in/toolset/html/entifier/
+Redirect 301 /entifier http://iwantaneff.in/toolset/html/entifier/
+
 Redirect 301 /favicon/ http://iwantaneff.in/toolset/html/favicon/
 Redirect 301 /favicon http://iwantaneff.in/toolset/html/favicon/
 
 Redirect 301 /flower/ http://iwantaneff.in/toolset/html/flower/
 Redirect 301 /flower http://iwantaneff.in/toolset/html/flower/
 
-Redirect 301 /asciimation/ http://iwantaneff.in/toolset/html/asciimation/
-Redirect 301 /asciimation http://iwantaneff.in/toolset/html/asciimation/
+Redirect 301 /game-of-cloudapp-roulette/ http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/
+Redirect 301 /game-of-cloudapp-roulette http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/
 
 Redirect 301 /game.of.pacman/ http://iwantaneff.in/toolset/html/game.of.pacman/
 Redirect 301 /game.of.pacman http://iwantaneff.in/toolset/html/game.of.pacman/
+
+Redirect 301 /glitcher/ http://iwantaneff.in/toolset/html/glitcher/
+Redirect 301 /glitcher http://iwantaneff.in/toolset/html/glitcher/
+
+Redirect 301 /jjencoder/ http://iwantaneff.in/toolset/html/jjencoder/
+Redirect 301 /jjencoder http://iwantaneff.in/toolset/html/jjencoder/
 
 Redirect 301 /link.list.opener/ http://iwantaneff.in/toolset/html/link.list.opener/
 Redirect 301 /link.list.opener http://iwantaneff.in/toolset/html/link.list.opener/
 
 Redirect 301 /notice/ http://iwantaneff.in/toolset/html/notice/
 Redirect 301 /notice http://iwantaneff.in/toolset/html/notice/
+
+Redirect 301 /packer/ http://iwantaneff.in/toolset/html/packer/
+Redirect 301 /packer http://iwantaneff.in/toolset/html/packer/
 
 Redirect 301 /repeat/ http://iwantaneff.in/toolset/html/repeat/
 Redirect 301 /repeat http://iwantaneff.in/toolset/html/repeat/
@@ -54,6 +66,3 @@ Redirect 301 /textarea http://iwantaneff.in/toolset/html/textarea/
 
 Redirect 301 /unicode.table/ http://iwantaneff.in/toolset/html/unicode.table/
 Redirect 301 /unicode.table http://iwantaneff.in/toolset/html/unicode.table/
-
-Redirect 301 /jjencoder/ http://iwantaneff.in/toolset/html/jjencoder/
-Redirect 301 /jjencoder http://iwantaneff.in/toolset/html/jjencoder/
