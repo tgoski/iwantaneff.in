@@ -9234,10 +9234,3 @@
                                           ee                                         
                                                                                      
                                                                                      
-Want to see a script that animates this star using JavaScript?
-
-http://iwantaneff.in/asciimation/
-
-Want to see a cube?
-
-http://iwantaneff.in/asciimation.cube/

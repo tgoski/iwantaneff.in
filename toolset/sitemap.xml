@@ -85,4 +85,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
+    <url>
+    <loc>http://iwantaneff.in/linkdump/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+    <url>
+    <loc>http://iwantaneff.in/forum/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
 </urlset>

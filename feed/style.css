@@ -1,0 +1,499 @@
+@font-face {
+    font-family: 'web symbols';
+    src: url('websymbols-regular-webfont.eot');
+    src: url('websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'), url('websymbols-regular-webfont.woff') format('woff'), url('websymbols-regular-webfont.ttf') format('truetype'), url('websymbols-regular-webfont.svg#ZocialRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+body {
+    background: url(images/bg.jpg) #3e3e3e top left repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*
+ * Breadcrumb links
+ *
+*/
+
+#breadcrumbs {
+    background: transparent url(images/crumbs_bg.jpg) no-repeat scroll 0 0;
+    height: 44px;
+    text-align: left;
+}
+
+#breadcrumblinks {
+    padding-top: 13px;
+    padding-left: 10px
+}
+
+#breadcrumblinks a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#breadcrumblinks a:hover {
+    color: #CF5B20;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#head a{
+text-decoration:none;
+color:#f2861d;
+font-family: 'Web Symbols';
+font-size: 100px;
+}
+
+/*
+ * Log in / Administration
+*/
+
+#menu {
+    height: 40px;
+    vertical-align: bottom;
+    text-align: right;
+    padding-right: 10px;
+    color: #fff;
+    text-transform : capitalize;
+    padding:13px 20px 20px 20px;
+    margin-left: 10px;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+
+#menu a:hover {
+    color: #cf5b20;
+    border-bottom: 1px dotted #fff;
+}
+
+/*
+ * Page Title
+*/
+
+#head {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 8px;
+    color: #FFF;
+}
+
+/*
+ * Main Content - everything below breadcrumb links
+*/
+
+#content {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    text-align: center;
+}
+
+/*
+ * Administrator Menu: Add Feeds - About
+*/
+
+#adminmenu {
+    background: url(images/head.jpg);
+    line-height: 37px;
+    padding-left: 10px;
+    text-align: center;
+    color: #663300;
+}
+
+#adminmenu a {
+    color: #663300;
+    text-decoration: none;
+}
+
+#adminmenu a:hover {
+    color: #330000;
+    text-decoration: underline;
+}
+
+/*
+ * Feed titles
+*/
+
+#feedhead {
+    background: url(images/head.jpg);
+    line-height: 37px;
+    height: 37px;
+    padding-left: 10px;
+    clear: both;
+}
+
+/*
+ * Feed title text
+*/
+
+.favico {
+    float: left;
+    margin-top: 5px;
+    padding-top: 6px;
+    padding-right: 2px;
+}
+
+#h {
+    color: #663300;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#h a {
+    color: #663300;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#h a:hover {
+    color: #330000;
+    text-decoration: underline;
+}
+
+/*
+ * Whole block of feeds
+*/
+
+#feeds {
+    background-color: #FFF;
+    padding-left: 30px;
+    text-align: center;
+}
+
+/*
+ * All unordered lists
+*/
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+/*
+ * All RSS Posts
+*/
+
+#feeds ul a {
+    background-image: url(images/bullet.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 20px;
+    color: #000;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+#feeds ul a:hover {
+    color: #cf5b20;
+    text-decoration: none;
+}
+
+/*
+ * Footer
+*/
+
+#foot {
+    height: 46px;
+    background: url(images/foot.jpg) no-repeat;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#foot a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#foot a:hover {
+    color: #CF5B20;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+/*
+ * Copyright notice
+*/
+
+#notice {
+    padding-top: 18px;
+}
+
+/*
+ * Make the text bold
+*/
+
+#bold {
+    font-weight: bold;
+    display: inline;
+}
+
+/*
+ * When the post was posted (e.g. 2 hours ago)
+*/
+
+.date {
+    display: inline;
+    color: #808080;
+}
+
+/*
+ * Administration table of feeds
+*/
+
+#feedtable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#feedtable th {
+    text-align: center;
+    padding: 2px;
+}
+
+#feedtable td {
+    padding: 10px;
+}
+
+#feedtable tr:hover {
+    background: #FFCC66;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+}
+
+/*
+ * Icons in table
+*/
+
+#icon {
+    width: 60px;
+    text-align: center;
+}
+
+/*
+ * Add feed link and keep it in the right place
+*/
+
+#btncontain {
+    width: 95%;
+    text-align: right;
+}
+
+/*
+ * New feed link
+*/
+
+#newfeed {
+    background-image: url(images/add.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 70px;
+    float: right;
+}
+
+#newfeed a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#newfeed a:hover {
+    color: #CF5B20;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+/*
+ * Links in feed table style
+*/
+
+#link a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#link a:hover {
+    color: #CF5B20;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+/*
+ * IE Hack to center align divs
+*/
+
+#addfeed {
+    text-align: center;
+}
+
+/*
+ * simple form css
+ */
+
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  max-width: 400px;
+  width: 400px;
+}
+
+form fieldset {
+  /* clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+  border-color: #CCC;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+}
+
+legend {
+    color: #000;
+}
+
+form fieldset legend {
+	font-size:1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
+                       /* be careful with padding, it'll shift the nice offset on top of border  */
+}
+
+form label {
+	display: block;  /* block float the labels to left column, set a width */
+	float: left;
+	width: 150px;
+	padding: 0;
+	margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right;
+}
+
+form fieldset label:first-letter { /* use first-letter pseudo-class to underline accesskey, note that */
+	text-decoration:underline;    /* Firefox 1.07 WIN and Explorer 5.2 Mac don't support first-letter */
+                                    /* pseudo-class on legend elements, but do support it on label elements */
+                                    /* we instead underline first letter on each label element and accesskey */
+                                    /* each input. doing only legends would  lessens cognitive load */
+                                   /* opera breaks after first letter underlined legends but not labels */
+}
+
+form input, form textarea {
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+
+form input#reset {
+	margin-left:0px; /* set margin-left back to zero on reset button (set above) */
+}
+
+textarea { overflow: auto; }
+
+form small {
+	display: block;
+	margin: 0 0 5px 160px; /* instructions/comments left margin set to align w/ right column inputs */
+	padding: 1px 3px;
+	font-size: 88%;
+}
+
+form .required{font-weight:bold;} /* uses class instead of div, more efficient */
+
+form br {
+	clear:left; /* setting clear on inputs didn't work consistently, so brs added for degrade */
+}
+
+form input.btn {
+    width: 100px;
+}
+
+
+/*
+ * Error message
+ */
+
+ #errorcontainer {
+     text-align: center;
+     width: 900px;
+ }
+
+#error {
+    border: 1px solid;
+    margin: 0px 0px;
+    padding:15px 10px 15px 10px;
+    color: #D8000C;
+    background-color: #FFBABA;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#warning {
+    border: 1px solid;
+    margin: 0px 0px;
+    padding:15px 10px 15px 10px;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * About
+ */
+
+#about a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#about a:hover {
+    color: #CF5B20;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+/*
+ * Initial Error
+ */
+
+#er a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+#er a:hover {
+    color: #CF5B20;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
