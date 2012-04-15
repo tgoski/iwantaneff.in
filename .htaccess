@@ -66,3 +66,6 @@ Redirect 301 /textarea http://iwantaneff.in/toolset/html/textarea/
 
 Redirect 301 /unicode.table/ http://iwantaneff.in/toolset/html/unicode.table/
 Redirect 301 /unicode.table http://iwantaneff.in/toolset/html/unicode.table/
+
+Redirect 301 /unicode-smart-car/ http://davidhiggins.me/car/
+Redirect 301 /unicode-smart-car http://davidhiggins.me/car/
