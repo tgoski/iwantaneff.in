@@ -69,3 +69,6 @@ Redirect 301 /unicode.table http://iwantaneff.in/toolset/html/unicode.table/
 
 Redirect 301 /unicode-smart-car/ http://davidhiggins.me/car/
 Redirect 301 /unicode-smart-car http://davidhiggins.me/car/
+
+Redirect 301 /demo/ http://davidhiggins.me/progress/b/index.html
+Redirect 301 /demo http://davidhiggins.me/progress/b/index.html
